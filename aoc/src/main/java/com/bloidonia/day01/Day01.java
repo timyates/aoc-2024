@@ -25,8 +25,8 @@ public class Day01 {
 
     public static void main(String[] args) {
         Day01 day01Part1 = new Day01(readResourceText("day01.txt"));
-        System.out.printf("Part 1: %d\n", day01Part1.part1());
-        System.out.printf("Part 1: %d\n", day01Part1.part2());
+        System.out.printf("Part 1: %d%n", day01Part1.part1());
+        System.out.printf("Part 1: %d%n", day01Part1.part2());
     }
 
     static Map<Long, Long> frequency(List<Long> list) {
