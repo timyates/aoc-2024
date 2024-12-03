@@ -1,5 +1,4 @@
 .gradle
 build
-resources/*.txt
 .idea
-
+/aoc/src/main/resources/
